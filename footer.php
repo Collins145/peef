@@ -2,10 +2,10 @@
 <!-- Footer -->
 <footer id="contact" class="bg-primary py-32" id="contact">
     <div class="max-w-screen-xl mx-auto px-4 overflow-hidden sm:px-6 lg:px-8">
-        <div class="flex justify-center">
+        <div class="flex flex-wrap justify-center">
             <a target="_blank" href="tel:<?=get_theme_mod('peef_phone', '+254 718 508 839')?>" class="flex items-center text-gray-100 hover:text-white transition ease-in-out duration-200 mr-4">
                 <span class="text-secondary mr-3">
-                    <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"></path>
                     </svg>
                 </span>
@@ -13,7 +13,7 @@
             </a>
             <a target="_blank" href="<?=get_theme_mod('peef_email', 'emilyruth077@gmail.com')?>" class="flex items-center text-gray-100 hover:text-white transition ease-in-out duration-200">
                 <span class="text-secondary mr-3">
-                    <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"></path>
                     </svg>
                 </span>
