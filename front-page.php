@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 <section class="bg-cover bg-no-repeat bg-center bg-fixed" style="background-image: url('<?=get_theme_mod('home_bg', get_template_directory_uri(). '/public/images/home-bg.jpg')?>');">
     <div class="w-full sm:max-w-5xl mx-auto flex items-center justify-center px-8 sm:px-0" style="height: 90vh;">
-        <div class="bg-white p-20 space-y-8">
+        <div class="bg-white p-6 sm:p-20 space-y-8">
             <h3 class="text-center"><?=get_theme_mod('home_section_title', 'Welcome to PEEF Online')?></h3>
-            <h1 class="text-3xl text-center text-primary"><?=get_theme_mod('home_section_description', 'PEEF Online is a great opportunity for you to explore the world of technology')?></h1>
+            <h1 class="text-lg sm:text-3xl text-center text-primary"><?=get_theme_mod('home_section_description', 'PEEF Online is a great opportunity for you to explore the world of technology')?></h1>
             <div class="flex justify-center">
-                <a href="<?=get_theme_mod('home_section_cta_link', '#services')?>" class="text-xl rounded-none px-8 py-4 bg-secondary text-white font-bold uppercase"><?=get_theme_mod('home_section_cta_label', 'See what we can do for you')?></a>
+                <a href="<?=get_theme_mod('home_section_cta_link', '#services')?>" class="text-sm sm:text-xl rounded-none px-4 sm:px-8 py-4 bg-secondary text-white font-bold uppercase"><?=get_theme_mod('home_section_cta_label', 'See what we can do for you')?></a>
             </div>
         </div>
     </div>
