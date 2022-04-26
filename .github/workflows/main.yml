@@ -1,4 +1,4 @@
-name: Deploy to Snobole
+name: Deploy to Peef Production
 on:
   push:
     branches: [ main ]
