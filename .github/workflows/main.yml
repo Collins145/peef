@@ -1,0 +1,27 @@
+name: Deploy to Snobole
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Start
+        run: echo Updating the environment...
+      - name: Pull latest updates
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.PEEF_HOST }}
+          username: ${{ secrets.PEEF_USER }}
+          key: ${{ secrets.PEEF_PRIVATE_KEY }}
+          port: ${{ secrets.PEEF_PORT }}
+          script: |
+            cd public_html/wp-content/themes/peef
+            git checkout -f
+            git pull
